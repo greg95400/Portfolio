@@ -64,9 +64,11 @@ export const portfolioConfig: PortfolioConfig = {
       path: "/cours",
       items: [
         {
-          title: "Cours 1 - Exemple",
-          description: "Notes du premier cours",
-          files: [],
+          title: "Cours 1",
+          description: "Support de cours 1",
+          files: [
+            { label: "Cours 1 (PDF)", path: "/files/cours1.pdf" },
+          ],
         },
       ],
     },
