@@ -48,10 +48,10 @@ export const portfolioConfig: PortfolioConfig = {
       path: "/travaux",
       items: [
         {
-          title: "TP1 - Exemple",
-          description: "Description du TP1",
+          title: "TD Odoo",
+          description: "Travaux dirigés sur Odoo - ERP et gestion d'entreprise",
           files: [
-            { label: "Rapport TP1", path: "/files/tp1-rapport.pdf" },
+            { label: "TD Odoo (PDF)", path: "/files/td-odoo.pdf" },
           ],
         },
       ],
