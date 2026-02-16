@@ -1,6 +1,7 @@
 export interface FileItem {
   label: string
   path: string
+  external?: boolean
 }
 
 export interface SectionItem {
@@ -54,6 +55,13 @@ export const portfolioConfig: PortfolioConfig = {
             { label: "TD Odoo (PDF)", path: "/files/td-odoo.pdf" },
           ],
         },
+        {
+          title: "TP HubSpot",
+          description: "TP Découverte HubSpot - CRM et Marketing",
+          files: [
+            { label: "TP Découverte HubSpot (PDF)", path: "/files/TP_Decouverte_hubspot.pdf" },
+          ],
+        },
       ],
     },
     {
@@ -68,6 +76,20 @@ export const portfolioConfig: PortfolioConfig = {
           description: "Support de cours 1",
           files: [
             { label: "Cours 1 (PDF)", path: "/files/cours1.pdf" },
+          ],
+        },
+        {
+          title: "Cours 2 HubSpot",
+          description: "Supports de cours sur HubSpot CRM et Marketing",
+          files: [
+            { label: "1- CRM version Etudiant", path: "/files/Cours_hubspot/1- CRM version Etudiant.pdf" },
+            { label: "2- Termes techniques CRM", path: "/files/Cours_hubspot/2- termes techniques CRM version Etudiant.pdf" },
+            { label: "3- Pipeline vs Funnel", path: "/files/Cours_hubspot/3- pipeline vs funnel.pdf" },
+            { label: "4 - Scénario simple", path: "/files/Cours_hubspot/4 - scénario simple.pdf" },
+            { label: "6- Pipeline de vente VS Workflow", path: "/files/Cours_hubspot/6- Pipeline de vente VS Workflow.pdf" },
+            { label: "8- HubSpot", path: "/files/Cours_hubspot/8- hubspot.docx.pdf" },
+            { label: "CRM VS PGI", path: "/files/Cours_hubspot/CRM VS PGI VERSION ETUD.pdf" },
+            { label: "PGI (Excel)", path: "/files/Cours_hubspot/PGI.xlsx" },
           ],
         },
       ],
@@ -94,8 +116,8 @@ export const portfolioConfig: PortfolioConfig = {
       path: "/certifications",
       items: [
         {
-          title: "Certification Exemple",
-          description: "Description de la certification",
+          title: "HubSpot CRM & Marketing",
+          description: "Maîtrise des outils CRM et de l'automatisation marketing via HubSpot.",
           files: [],
         },
       ],
