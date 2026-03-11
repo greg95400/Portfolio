@@ -124,15 +124,28 @@ export const portfolioConfig: PortfolioConfig = {
     },
     {
       id: "projet-final",
-      title: "Projet final",
+      title: "Projet final - CRM Foot",
       icon: "Rocket",
-      description: "Projet numérique intégrant les compétences acquises (CRM).",
+      description: "Conception et développement d'une solution CRM dédiée à la gestion de clubs de football.",
       path: "/projet-final",
       items: [
         {
-          title: "Projet CRM",
-          description: "Conception et réalisation du projet CRM",
-          files: [],
+          title: "⚽ Application & Code Source",
+          description: "Une plateforme moderne pour centraliser la gestion des joueurs, matchs et statistiques du club.",
+          files: [
+            { label: "Voir l'application (Vercel)", path: "https://crmfoot.vercel.app", external: true },
+            { label: "Code Source (GitHub)", path: "https://github.com/greg95400/crmfoot", external: true },
+          ],
+        },
+        {
+          title: "📚 Documentation Technique",
+          description: "Détails de la conception : Modélisation, cas d'usage et rapport de projet.",
+          files: [
+            { label: "📖 README.md", path: "https://github.com/greg95400/crmfoot/blob/main/README.md", external: true },
+            { label: "🔄 Use Case", path: "https://github.com/greg95400/crmfoot/blob/main/docs/use_case.md", external: true },
+            { label: "🗂️ Modèle (MCD)", path: "https://github.com/greg95400/crmfoot/blob/main/docs/mcd.md", external: true },
+            { label: "📑 Rapport de Projet", path: "https://github.com/greg95400/crmfoot/blob/main/docs/rapport.md", external: true },
+          ],
         },
       ],
     },
