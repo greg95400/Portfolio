@@ -116,9 +116,25 @@ export const portfolioConfig: PortfolioConfig = {
       path: "/certifications",
       items: [
         {
-          title: "HubSpot CRM & Marketing",
-          description: "Maîtrise des outils CRM et de l'automatisation marketing via HubSpot.",
-          files: [],
+          title: "Certification Marketing Digital - HubSpot Academy",
+          description: "Certification délivrée par HubSpot Academy attestant des connaissances et compétences nécessaires pour déployer des techniques de marketing digital, avec un accent sur la méthodologie inbound. Valide du 23 mars 2026 au 22 avril 2027.",
+          files: [
+            { label: "Certificat Marketing Digital HubSpot (PNG)", path: "/files/certif-hubspot-marketing-digital.png" },
+          ],
+        },
+        {
+          title: "Certification Anglais B1 - Altissia",
+          description: "Attestation de niveau en anglais obtenue lors d'un test de niveau passé le 28 février 2025. Niveau B1 certifié par Altissia, correspondant à un utilisateur indépendant de la langue capable de comprendre les points essentiels d'un sujet courant.",
+          files: [
+            { label: "Attestation de niveau Anglais B1 (PDF)", path: "/files/certif-anglais-b1.pdf" },
+          ],
+        },
+        {
+          title: "Module RGPD - CNIL",
+          description: "Attestation de suivi délivrée par la CNIL (Commission Nationale de l'Informatique et des Libertés) pour le Module 1 : Le RGPD et ses notions clés. Score obtenu à l'évaluation : 100%. Obtenu le 25 mars 2026.",
+          files: [
+            { label: "Attestation RGPD - Module 1 CNIL (PDF)", path: "/files/certif-cnil-rgpd.pdf" },
+          ],
         },
       ],
     },
