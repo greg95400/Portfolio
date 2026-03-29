@@ -37,8 +37,8 @@ export const portfolioConfig: PortfolioConfig = {
     title: "Etudiant MIAGE",
     bio: "Etudiant passionné en MIAGE, spécialisé dans les systèmes d'information et le développement web.",
     linkedin: "https://www.linkedin.com/in/gr%C3%A9gory-meneus-8379a5309/",
-    email: "votre.email@example.com",
-    cvPath: "/files/cv.pdf",
+    email: "gregory.meneus.pro@gmail.com",
+    cvPath: "/files/CV Grégory MENEUS Miage.pdf",
   },
   sections: [
     {

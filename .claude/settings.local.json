@@ -17,7 +17,12 @@
       "Bash(git push:*)",
       "Bash(gh repo list:*)",
       "WebFetch(domain:greg95400.github.io)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Read(//c/Users/Lenovo/Downloads/**)",
+      "Bash(python -c \":*)",
+      "Bash(cp \"C:/Users/Lenovo/Downloads/42010070-2024-en_GB.pdf\" \"C:/Users/Lenovo/Documents/portfolioMIAGE/public/files/certif-anglais-b1.pdf\")",
+      "Bash(cp \"C:/Users/Lenovo/Downloads/Certificat_.pdf\" \"C:/Users/Lenovo/Documents/portfolioMIAGE/public/files/certif-cnil-rgpd.pdf\")",
+      "Bash(ls C:/Users/Lenovo/Downloads/*.png)"
     ]
   }
 }
